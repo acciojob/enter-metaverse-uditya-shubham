@@ -6,6 +6,7 @@ const statusPara = document.getElementById("status");
       // Create new h1 element
       const newHeading = document.createElement("h1");
       newHeading.textContent = "Entered Metaverse";
+		newHeading.id = "status";
 
       // Replace the <p> with the <h1>
       statusPara.replaceWith(newHeading);
